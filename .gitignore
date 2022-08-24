@@ -1,3 +1,6 @@
 # compile artifacts
 *.o
 dwm
+
+# quilt artifacts
+.pc
