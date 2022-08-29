@@ -2,6 +2,7 @@
 ## Patches
  - my settings
  - [cool autostart](https://dwm.suckless.org/patches/cool_autostart/)
+ - [quit prompt](https://dwm.suckless.org/patches/quitprompt/)
 ## Quilt
 patches are handled via [quilt](http://savannah.nongnu.org/projects/quilt). To apply them, enter `quilt push -a`.
 For more information on how to use quilt, see

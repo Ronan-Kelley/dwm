@@ -14,7 +14,16 @@ Index: dwm/config.h
  static const char col_gray1[]       = "#222222";
  static const char col_gray2[]       = "#444444";
  static const char col_gray3[]       = "#bbbbbb";
-@@ -114,3 +114,11 @@ static const Button buttons[] = {
+@@ -94,7 +94,7 @@ static const Key keys[] = {
+ 	TAGKEYS(                        XK_7,                      6)
+ 	TAGKEYS(                        XK_8,                      7)
+ 	TAGKEYS(                        XK_9,                      8)
+-	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
++	{ MODKEY|ShiftMask,             XK_q,      quitprompt,           {0} },
+ };
+ 
+ /* button definitions */
+@@ -114,3 +114,12 @@ static const Button buttons[] = {
  	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
  };
  
@@ -23,6 +32,7 @@ Index: dwm/config.h
 +static const char *const autostart[] = {
 +	"sh", "-c", "~/.fehbg", NULL,
 +	"picom", NULL,
++	"rsblocks", "NULL",
 +	NULL
 +};
 +
